@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: calculator_akumar
+Version: 0.1.0
+Summary: Basic arithmetic operations package
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# calculator
+
+A lightweight Python package for basic arithmetic:
+- Addition
+- Subtraction
+- Multiplication
+- Division (with error on divide-by-zero)
+
+## Usage
+from calculator import add, subtract, multiply, divide
+print(add(2, 3)) # 5
+print(subtract(5, 1)) # 4
+print(multiply(3, 4)) # 12
+print(divide(8, 2)) # 4.0
+
+## Running Tests
+pytest tests/
+
+---
+
+## Next Steps
+- You can add more advanced operations (like exponents, roots, etc.) to `operator.py`.
+- Update `pyproject.toml` with your name and email.
+- Build and publish using the guidance from previous answers!
+
+If you tell me your course or experience level, I can adapt this example to be more advanced, use exceptions, or handle different data types in your calculator!

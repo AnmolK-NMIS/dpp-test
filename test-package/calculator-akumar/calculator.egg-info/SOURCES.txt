@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+calculator/__init__.py
+calculator/operator.py
+calculator.egg-info/PKG-INFO
+calculator.egg-info/SOURCES.txt
+calculator.egg-info/dependency_links.txt
+calculator.egg-info/top_level.txt
+tests/test_operator.py

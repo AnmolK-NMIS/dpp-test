@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+calculator/__init__.py
+calculator/operator.py
+calculator_akumar.egg-info/PKG-INFO
+calculator_akumar.egg-info/SOURCES.txt
+calculator_akumar.egg-info/dependency_links.txt
+calculator_akumar.egg-info/top_level.txt
+tests/test_operator.py
