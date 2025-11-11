@@ -82,3 +82,17 @@ dpp = DigitalProductPassport(
 
 print(dpp)
 ```
+---
+
+## Quick Start Steps
+1. Install with `pip` or from source.
+2. Import model layers and part classes.
+3. Create instances and assemble your passport.
+
+---
+
+## License
+Distributed under the MIT License. See `LICENSE.txt` for details.
+
+---
+
