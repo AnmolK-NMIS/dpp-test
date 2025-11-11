@@ -4,17 +4,17 @@ A modular Python package that enables manufacturing companies to create interope
 
 ---
 ## Package Layout
-dpp_passport/ \n
-├── dpp_passport/ \n
-│   ├── __init__.py \n
-│   ├── model.py         # Core models for DPP layers \n
-│   ├── part_class.py    # Universal part class set \n
-│   ├── utils.py         # Any helper functions \n
-├── tests/ \n
-│   ├── test_model.py \n
-│   ├── test_part_class.py \n
-├── pyproject.toml \n
-├── README.md \n
+dpp_passport/ 
+├── dpp_passport/ 
+│   ├── __init__.py 
+│   ├── model.py         # Core models for DPP layers 
+│   ├── part_class.py    # Universal part class set 
+│   ├── utils.py         # Any helper functions 
+├── tests/ 
+│   ├── test_model.py 
+│   ├── test_part_class.py 
+├── pyproject.toml
+├── README.md 
 
 ---
 
