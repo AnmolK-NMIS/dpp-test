@@ -15,12 +15,12 @@ Author: Anmol Kumar, NMIS
 """
 
 import pytest
-from nmis-dpp.part_class import (
+from nmis_dpp.part_class import (
     PowerConversion, EnergyStorage, Actuator, Sensor, ControlUnit,
     UserInterface, Thermal, Fluidics, Structural, Transmission,
     Protection, Connectivity, SoftwareModule, Consumable, Fastener
 )
-from nmis-dpp.utils import to_dict
+from nmis_dpp.utils import to_dict
 
 def test_power_conversion():
     """

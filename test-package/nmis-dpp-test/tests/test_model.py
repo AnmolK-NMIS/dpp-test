@@ -15,14 +15,14 @@ Author: Anmol Kumar, NMIS
 """
 
 import pytest
-from nmis-dpp.model import (
+from nmis_dpp.model import (
     IdentityLayer, StructureLayer, LifecycleLayer, RiskLayer,
     SustainabilityLayer, ProvenanceLayer, DigitalProductPassport
 )
-from nmis-dpp.part_class import (
+from nmis_dpp.part_class import (
     Actuator, Sensor, PowerConversion
 )
-from nmis-dpp.utils import to_dict, to_json
+from nmis_dpp.utils import to_dict, to_json
 
 def sample_layers():
     """
