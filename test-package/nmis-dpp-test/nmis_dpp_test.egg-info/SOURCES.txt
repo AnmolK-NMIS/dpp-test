@@ -1,9 +1,9 @@
 README.md
 pyproject.toml
-nmis-dpp/__init__.py
-nmis-dpp/model.py
-nmis-dpp/part_class.py
-nmis-dpp/utils.py
+nmis_dpp/__init__.py
+nmis_dpp/model.py
+nmis_dpp/part_class.py
+nmis_dpp/utils.py
 nmis_dpp_test.egg-info/PKG-INFO
 nmis_dpp_test.egg-info/SOURCES.txt
 nmis_dpp_test.egg-info/dependency_links.txt
