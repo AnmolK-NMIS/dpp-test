@@ -29,7 +29,7 @@ dpp_passport/ <br />
 pip install nmis-dpp-test
 ### From Source
 git clone https://github.com/AnmolK-NMIS/dpp-test.git
-cd dpp-passport
+cd dpp-test/test-package/nmis-dpp-test
 pip install .
 
 
@@ -40,11 +40,11 @@ pip install .
 Create a simple digital product passport with identity, structure, and key classes:
 
 ```
-from dpp_passport.model import (
+from nmis-dpp.model import (
     IdentityLayer, StructureLayer, LifecycleLayer,
     RiskLayer, SustainabilityLayer, ProvenanceLayer, DigitalProductPassport
 )
-from dpp_passport.part_class import Actuator, Sensor, PowerConversion
+from nmis-dpp.part_class import Actuator, Sensor, PowerConversion
 
 # Example parts
 motor = Actuator(part_id="A001", name="Motor", type="Actuator", torque=2.5, speed=1500, duty_cycle=80, voltage=48, properties={})
