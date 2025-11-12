@@ -28,9 +28,9 @@ dpp_passport/ <br />
 ### From PyPI
 pip install nmis-dpp-test
 ### From Source
-git clone https://github.com/AnmolK-NMIS/dpp-test.git
-cd dpp-test/test-package/nmis-dpp-test
-pip install .
+git clone https://github.com/AnmolK-NMIS/dpp-test.git  
+cd dpp-test/test-package/nmis-dpp-test  
+pip install .  
 
 
 ---
