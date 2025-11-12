@@ -4,8 +4,8 @@ A modular Python package that enables manufacturing companies to create interope
 
 ---
 ## Package Layout
-dpp_passport/ <br />
-├── dpp_passport/ <br />
+nmis-dpp-test/ <br />
+├── nmis_dpp/ <br />
 │   ├── __init__.py <br />
 │   ├── model.py         # Core models for DPP layers <br />
 │   ├── part_class.py    # Universal part class set <br />
