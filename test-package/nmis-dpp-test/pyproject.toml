@@ -28,11 +28,11 @@ requires-python = ">=3.7"
 
 [tool.setuptools]
 # Automatically find top-level packages
-packages = ["nmis-dpp-test"]
+packages = ["nmis-dpp"]
 
 [tool.setuptools.package-data]
 # Include additional files in your package (add as needed)
-# "nmis-dpp-test" = ["*.json", "*.yaml"]
+# "nmis-dpp" = ["*.json", "*.yaml"]
 
 # Optional: Enable pytest discovery if you want to run tests with `pytest` automatically
 [tool.pytest.ini_options]
